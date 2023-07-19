@@ -1,0 +1,13 @@
+baseurl      = "rollingkittens.com"
+title        = "rollingkittens"
+languageCode = "en-us"
+theme        = "hello-friend-ng"
+
+disableKinds = ["sitemap", "RSS", "taxonomy"]
+
+[params]
+  description = "rollingkittens link page"
+  homeSubtitle = "silly link page to make my services public"
+  [params.logo]
+    alt = "rollingkittens"
+    path = "/android-chrome-512x512.png"
