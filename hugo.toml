@@ -1,9 +1,10 @@
-baseurl      = "rollingkittens.com"
+baseurl      = "https://rollingkittens.com"
 title        = "rollingkittens"
 languageCode = "en-us"
 theme        = "hello-friend-ng"
 
 disableKinds = ["sitemap", "RSS", "taxonomy"]
+ignoreErrors = ["error-disable-taxonomy"]
 
 [params]
   description = "rollingkittens link page"
